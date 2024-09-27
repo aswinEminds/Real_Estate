@@ -1,0 +1,23 @@
+.register-main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-main .card .card-header {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.register-main .card {
+  padding: 2rem;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  outline: none;
+  border: 1px solid #999;
+}

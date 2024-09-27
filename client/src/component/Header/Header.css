@@ -1,0 +1,43 @@
+.header-parent{
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+.header-parent > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding:0.5rem;
+  font-size: medium;
+  font-family: "Nunito Sans", sans-serif;
+
+  
+}
+.brand {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.header-parent p {
+  margin: 0;
+}
+.header-parent ul {
+  display: flex;
+  padding:0;
+  margin: 0;
+  align-items: center;
+  gap: 2.5rem;
+}
+.header-parent li {
+  list-style: none;
+  font-weight: 800;
+  color:rgba(19, 18, 18, 0.736)
+}
+.header-parent button {
+  background-color: chartreuse;
+  height: min-content;
+  border: none;
+  width: 5rem;
+  padding: 0.5rem;
+  color: white;
+  border-radius:3rem;
+}
